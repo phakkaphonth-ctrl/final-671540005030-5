@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KSU Coffee - Menu</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: #f5efe6;
+      color: #3e2723;
+    }
+    header {
+      background: #4e342e;
+      color: #fff;
+      text-align: center;
+      padding: 32px 16px;
+    }
+    header h1 { margin: 0; font-size: 2.4rem; }
+    header p { margin: 8px 0 0; opacity: 0.85; }
+    .version {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 4px 12px;
+      border-radius: 12px;
+      background: #d7a86e;
+      color: #3e2723;
+      font-weight: bold;
+    }
+    main {
+      max-width: 640px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu li {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+    .price { font-weight: bold; color: #8d6e63; }
+    .promo-link {
+      display: block;
+      text-align: center;
+      margin-top: 24px;
+      padding: 14px;
+      background: #d7a86e;
+      color: #3e2723;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .promo-link:hover { background: #c49058; }
+    footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 0.9rem;
+      color: #6d4c41;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KSU Coffee</h1>
+    <p>รหัสนักศึกษา: 671540005030-5</p>
+    <span class="version">Menu v2</span>
+  </header>
+
+  <main>
+    <h2>เมนูเครื่องดื่ม</h2>
+    <ul class="menu">
+      <li><span>Espresso</span><span class="price">45 บาท</span></li>
+      <li><span>Americano</span><span class="price">50 บาท</span></li>
+      <li><span>Cappuccino</span><span class="price">55 บาท</span></li>
+      <li><span>Latte</span><span class="price">55 บาท</span></li>
+      <li><span>Mocha</span><span class="price">60 บาท</span></li>
+      <li><span>Matcha Latte</span><span class="price">65 บาท</span></li>
+    </ul>
+
+    <a class="promo-link" href="http://localhost:8081">ดูโปรโมชั่น</a>
+  </main>
+
+  <footer>&copy; 2026 KSU Coffee</footer>
+</body>
+</html>

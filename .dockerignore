@@ -1,0 +1,6 @@
+.git
+.gitignore
+screenshots/
+ANSWER.md
+docker-compose.yml
+README.md
